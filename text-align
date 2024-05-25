@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sayfa başlığı</title>
+</head>
+<body>
+<h1 style="text-align:center;">Ortalanmış Başlık</h1>
+<p style="text-align:center;">Ortalanmış Paragraf</p>
+</body>
+</html>

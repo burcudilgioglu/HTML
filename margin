@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    border: 1px solid red;
+    margin: 50px;
+}
+</style>
+</head>
+<body>
+
+<p>Bu bir paragraf.</p>
+<p>Bu bir paragraf.</p>
+<p>Bu bir paragraf.</p>
+
+</body>
+</html>
+   

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ozet {
+    color: red;
+}
+</style>
+</head>
+<body>
+
+<p>Bu bir paragraf.</p>
+<p class="ozet">Bu bir paragraf.</p>
+<p>Bu bir paragraf.</p>
+<p class="ozet">Bu bir paragraf.</p>
+
+</body>
+</html>
+   

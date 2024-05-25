@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sayfa başlığı</title>
+</head>
+<body>
+<p>
+    <b>Bu vurgulu bir yazı</b>
+</p>
+<p>
+    <i>Bu italik (sağa eğik) bir yazı</i>
+</p>
+<p>
+    Bu<sub> alt simge</sub> ve <sup>üst simge</sup>
+</p>
+</body>
+</html>

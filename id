@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#altbaslik {
+    color: blue;
+}
+</style>
+</head>
+<body>
+
+<h2>Bu bir h2 başlık</h2>
+<h2 id="altbaslik">Bu bir h2 başlık</h2>
+<h2>Bu bir h2 başlık</h2>
+</body>
+</html>
+   

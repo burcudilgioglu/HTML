@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    color: blue;
+    font-family: tahoma;
+    font-size: 16px;
+}
+p  {
+    color: red;
+    font-family: courier;
+    font-size: 40px;
+}
+</style>
+</head>
+<body>
+
+<h1>Bu bir başlık</h1>
+<p>Bu bir paragraf.</p>
+
+</body>
+</html>   

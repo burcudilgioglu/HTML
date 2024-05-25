@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid red;
+    border-collapse:collapse;
+}
+th, td {
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <tr>
+    <th>Ad</th>
+    <td>Ali Veli</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telefon</th>
+    <td>23344554</td>
+  </tr>
+  <tr>
+    <td>55566778</td>
+  </tr>
+</table
+
+</body>
+</html>
+   

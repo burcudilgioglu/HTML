@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sayfa başlığı</title>
+</head>
+<body>
+<p>
+<del>Bu virüsün şuan bir çaresi yok</del>. <ins>Virüse çare bulundu.</ins>
+</p>
+</body>
+</html>

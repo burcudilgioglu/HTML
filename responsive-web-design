@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* Tablet için: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* Telefonlar için: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Tahoma;">
+
+<div style="background-color:#a2a2a2;padding:15px;">
+  <h1>Responsive Web Sayfası</h1>
+  <h3>Pencerenin boyutunu değiştirin</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">Lorem</div>
+    <div class="menuitem">İpsum</div>
+    <div class="menuitem">Dolor</div>
+    <div class="menuitem">Sit Amet</div>
+  </div>
+
+  <div class="main">
+    <h2>Lorem İpsum</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed laoreet dui, et consequat nibh. Ut pretium leo at nibh iaculis ultrices.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed laoreet dui, et consequat nibh. Ut pretium leo at nibh iaculis ultrices.</p>
+    <img src="https://i.ibb.co/Jy8mG7t/responsive-web-design.png" style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>Lorem ipsum</h2>
+    <p>Sed ut ante nec est cursus aliquet.</p>
+    <h2>Lorem ipsum</h2>
+    <p>Aliquam risus lorem, sagittis feugiat convallis vitae, bibendum et purus.</p>
+    <h2>Lorem ipsum</h2>
+    <p>Morbi sapien leo, tristique vitae lacinia ut, hendrerit eget eros. Ut augue ante, tincidunt vitae sapien non, tempor accumsan nunc. Maecenas congue accumsan nibh.</p>
+  </div>
+</div>
+
+
+<div style="background-color:#a2a2a2;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed laoreet dui, et consequat nibh. Ut pretium leo at nibh iaculis ultrices. Sed ut ante nec est cursus aliquet. Aliquam risus lorem, sagittis feugiat convallis vitae, bibendum et purus. Morbi sapien leo, tristique vitae lacinia ut, hendrerit eget eros. Ut augue ante, tincidunt vitae sapien non, tempor accumsan nunc. Maecenas congue accumsan nibh.</div>
+
+</body>
+</html>    
